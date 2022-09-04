@@ -4,7 +4,7 @@ import Item from './Item';
 const ItemList = () => {
     const [items,steItem] = useState ([
         {id: 1, 
-        title: "Camepra Think",
+        title: "Campera Think",
         price: "$900",
         img: "https://images.unsplash.com/photo-1523111567642-f71bebeb173f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" },
         {
