@@ -3,20 +3,20 @@ function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
-    <a class="navbar-brand link active" href="#">Crawn Store</a>
+    <a class="navbar-brand link active" href="../../public/index.html"> Crawn </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link "  href="#">Store</a>
+          <a class="nav-link "  href="#">Tienda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Sobre Nosotros</a>
         </li>
         < li class = "nav-item ">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">Contacto</a>
         </li>
       </ul>
 

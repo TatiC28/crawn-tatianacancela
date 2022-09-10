@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Item from './Item';
 
 const ItemList = () => {
-    const [items,steItem] = useState ([
+    const [items,setItem] = useState ([
         {id: 1, 
         title: "Campera Think",
         price: "$900",
