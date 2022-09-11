@@ -9,7 +9,9 @@ const Item = (props) => {
       <img src = {props.img} href= "#" class = "img-thumbnail" alt = "profile-image" />
       </div> 
       <div class = "" >
-        <h4 > {props.title} </h4> <p class = "text-muted"> {props.price} </p> 
+        <h4 > {props.title} </h4> <p class = "text-muted"> {props.description} </p> 
+        <p class = "text-muted"> {props.price} </p> 
+     
         <button type = "button" class = "btn btn-primary" > Agregar al Carrito </button>
         </div > 
         </div> 
